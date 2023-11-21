@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33707846588218172}
   - component: {fileID: 23555706297126952}
   - component: {fileID: 64128338978142236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_Env_Concrete_Base_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

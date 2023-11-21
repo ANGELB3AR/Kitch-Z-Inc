@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 64461901158992482}
   - component: {fileID: 64153255771789512}
   - component: {fileID: 64399103372511500}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_Env_Bridge_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 33972806393000318}
   - component: {fileID: 23643846102118216}
   - component: {fileID: 64397072402300596}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_Bld_House_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

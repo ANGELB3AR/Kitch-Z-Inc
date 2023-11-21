@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33480307442541650}
   - component: {fileID: 23436247086396034}
   - component: {fileID: 64397725946891440}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_Env_Beach_Staight_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
