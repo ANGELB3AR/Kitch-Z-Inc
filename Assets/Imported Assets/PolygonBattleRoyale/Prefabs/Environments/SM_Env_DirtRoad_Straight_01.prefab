@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33139796431119022}
   - component: {fileID: 23526000924027460}
   - component: {fileID: 64906197536020884}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_Env_DirtRoad_Straight_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

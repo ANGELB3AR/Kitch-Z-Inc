@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33267085550664722}
   - component: {fileID: 23038649619490502}
   - component: {fileID: 64915961031820470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_Env_Road_Corner_01_Dirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 4987117302697228}
   - component: {fileID: 33980954242569864}
   - component: {fileID: 23227937469161950}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_Env_Road_Corner_01_Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 33827583330525952}
   - component: {fileID: 23391229096838276}
   - component: {fileID: 64435896994812976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_Env_Road_Corner_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

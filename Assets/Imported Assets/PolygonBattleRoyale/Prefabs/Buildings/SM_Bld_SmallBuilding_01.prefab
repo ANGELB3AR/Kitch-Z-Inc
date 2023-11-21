@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 33833724995194840}
   - component: {fileID: 23902343528603022}
   - component: {fileID: 64274492971901764}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_Bld_SmallBuilding_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

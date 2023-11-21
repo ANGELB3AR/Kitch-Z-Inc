@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33496462993904764}
   - component: {fileID: 23605714977781758}
   - component: {fileID: 64455295459938258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SM_Bld_WoodenShack_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
