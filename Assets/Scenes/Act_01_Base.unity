@@ -2778,8 +2778,8 @@ MonoBehaviour:
   chooseSceneBy: 0
   previousScene: 0
   previousSceneName: 
-  fadeInOnStart: 0
-  fadeSpeed: 0.5
+  fadeInOnStart: 1
+  fadeSpeed: 1
   cameraOnStart: {fileID: 0}
   playerIDs: 
   limitByPlayer: 0
@@ -2793,7 +2793,7 @@ Transform:
   m_GameObject: {fileID: 633675533573924873}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 6.72, z: -0.49}
+  m_LocalPosition: {x: -0.1, y: 6.728, z: -0.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
