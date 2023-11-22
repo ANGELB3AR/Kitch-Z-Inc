@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: 40899afde0fd6964b9df419c0bc21969
+timeCreated: 1575324694
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: nub
+    100002: Orb_GunBarrels
+    100004: Orb_Main
+    100006: Orb_MissileLauncherLeft
+    100008: Orb_MissileLauncherRight
+    100010: Orb_WeaponBase
+    100012: root
+    100014: //RootNode
+    100016: SK_Orb_01
+    100018: RefPoint_MssilleLeft_1
+    100020: RefPoint_MssilleLeft_2
+    100022: RefPoint_MssilleLeft_3
+    100024: RefPoint_MssilleRight_1
+    100026: RefPoint_MssilleRight_2
+    100028: RefPoint_MssilleRight_3
+    100030: RefPoint_MissileLeft_1
+    100032: RefPoint_MissileLeft_2
+    100034: RefPoint_MissileLeft_3
+    100036: RefPoint_MissileRight_1
+    100038: RefPoint_MissileRight_2
+    100040: RefPoint_MissileRight_3
+    400000: nub
+    400002: Orb_GunBarrels
+    400004: Orb_Main
+    400006: Orb_MissileLauncherLeft
+    400008: Orb_MissileLauncherRight
+    400010: Orb_WeaponBase
+    400012: root
+    400014: //RootNode
+    400016: SK_Orb_01
+    400018: RefPoint_MssilleLeft_1
+    400020: RefPoint_MssilleLeft_2
+    400022: RefPoint_MssilleLeft_3
+    400024: RefPoint_MssilleRight_1
+    400026: RefPoint_MssilleRight_2
+    400028: RefPoint_MssilleRight_3
+    400030: RefPoint_MissileLeft_1
+    400032: RefPoint_MissileLeft_2
+    400034: RefPoint_MissileLeft_3
+    400036: RefPoint_MissileRight_1
+    400038: RefPoint_MissileRight_2
+    400040: RefPoint_MissileRight_3
+    4300000: SK_Orb_01
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: SK_Orb_01
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
