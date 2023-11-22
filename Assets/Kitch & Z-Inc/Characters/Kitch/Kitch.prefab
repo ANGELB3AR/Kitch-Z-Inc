@@ -3744,6 +3744,7 @@ GameObject:
   - component: {fileID: 7893918926957897063}
   - component: {fileID: 2453250610638455466}
   - component: {fileID: 3725012959375923520}
+  - component: {fileID: 4954316755757291023}
   m_Layer: 2
   m_Name: Kitch
   m_TagString: Untagged
@@ -3760,7 +3761,7 @@ Transform:
   m_GameObject: {fileID: 8169601009230092794}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.617523, y: 0.119017124, z: 6.802931}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3802,7 +3803,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 98bae1fd37db9a64dae41e749dfe8fb7, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -4037,11 +4038,11 @@ MonoBehaviour:
     isUpgraded: 0
   angleSnapping: 0
   walkSpeedScale: 2
-  runSpeedScale: 6
+  runSpeedScale: 5
   reverseSpeedFactor: 1
   canRunInReverse: 1
   turnSpeed: 7
-  acceleration: 6
+  acceleration: 5
   deceleration: 0
   turnBeforeWalking: 0
   runDistanceThreshold: 1
@@ -4108,7 +4109,7 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!136 &3725012959375923520
@@ -4134,6 +4135,20 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &4954316755757291023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8169601009230092794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07d8687c090c6484a8a99833bad30740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moveWithRigidbody: 1
+  predictCollisions: 0
 --- !u!1 &8260535738742668201
 GameObject:
   m_ObjectHideFlags: 0
