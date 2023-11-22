@@ -274,13 +274,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1328957319978744415}
   - component: {fileID: 2495311765505686595}
+  - component: {fileID: 646160006285954011}
   m_Layer: 0
   m_Name: Character_MilitaryFemale_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1328957319978744415
 Transform:
   m_ObjectHideFlags: 0
@@ -303,7 +304,7 @@ SkinnedMeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649426292251244771}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -398,6 +399,21 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0004054904, y: 0.8454419, z: -0.05201415}
     m_Extent: {x: 1.02213, y: 0.94312996, z: 0.26729244}
   m_DirtyAABB: 0
+--- !u!114 &646160006285954011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649426292251244771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 1186636
+  retainInPrefab: 1
+  autoManual: 0
 --- !u!1 &879149183858083448
 GameObject:
   m_ObjectHideFlags: 0
