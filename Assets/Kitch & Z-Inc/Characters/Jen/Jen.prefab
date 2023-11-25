@@ -1206,8 +1206,8 @@ MonoBehaviour:
   phonemeParameter: 
   phonemeNormalisedParameter: 
   lipSyncGroupID: 0
-  leftHandBone: {fileID: 0}
-  rightHandBone: {fileID: 0}
+  leftHandBone: {fileID: 7480562363901254092}
+  rightHandBone: {fileID: 598143472753635689}
   idleAnim: {fileID: 0}
   walkAnim: {fileID: 0}
   runAnim: {fileID: 0}
@@ -1221,7 +1221,7 @@ MonoBehaviour:
   upperBodyBone: {fileID: 0}
   leftArmBone: {fileID: 0}
   rightArmBone: {fileID: 0}
-  neckBone: {fileID: 0}
+  neckBone: {fileID: 8131724401408681910}
   animCrossfadeSpeed: 0.2
   groundCheckLayerMask: 1
   moveSpeedParameter: Speed
