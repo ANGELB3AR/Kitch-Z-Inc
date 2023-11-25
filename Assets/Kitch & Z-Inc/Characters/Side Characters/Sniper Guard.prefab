@@ -1467,8 +1467,8 @@ MonoBehaviour:
   phonemeParameter: 
   phonemeNormalisedParameter: 
   lipSyncGroupID: 0
-  leftHandBone: {fileID: 0}
-  rightHandBone: {fileID: 0}
+  leftHandBone: {fileID: 2872449409552474322}
+  rightHandBone: {fileID: 3663734720280415133}
   idleAnim: {fileID: 0}
   walkAnim: {fileID: 0}
   runAnim: {fileID: 0}
@@ -1482,7 +1482,7 @@ MonoBehaviour:
   upperBodyBone: {fileID: 0}
   leftArmBone: {fileID: 0}
   rightArmBone: {fileID: 0}
-  neckBone: {fileID: 0}
+  neckBone: {fileID: 8143242136712970643}
   animCrossfadeSpeed: 0.2
   groundCheckLayerMask: 1
   moveSpeedParameter: Speed
@@ -1587,9 +1587,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
-  m_Height: 2
+  m_Height: 2.0107849
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0.9946071, z: 0}
 --- !u!114 &4079224096714745852
 MonoBehaviour:
   m_ObjectHideFlags: 0
