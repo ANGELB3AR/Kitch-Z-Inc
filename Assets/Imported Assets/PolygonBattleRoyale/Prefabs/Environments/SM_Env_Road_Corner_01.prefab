@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 33267085550664722}
   - component: {fileID: 23038649619490502}
   - component: {fileID: 64915961031820470}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SM_Env_Road_Corner_01_Dirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4837452838800526
 Transform:
@@ -117,12 +117,12 @@ GameObject:
   - component: {fileID: 4987117302697228}
   - component: {fileID: 33980954242569864}
   - component: {fileID: 23227937469161950}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: SM_Env_Road_Corner_01_Edge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4987117302697228
 Transform:
@@ -201,12 +201,13 @@ GameObject:
   - component: {fileID: 33827583330525952}
   - component: {fileID: 23391229096838276}
   - component: {fileID: 64435896994812976}
+  - component: {fileID: 1368629607909399892}
   m_Layer: 8
   m_Name: SM_Env_Road_Corner_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4434373782426088
 Transform:
@@ -297,3 +298,34 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 43283705939149764, guid: 0829bcfd314cf134abcb15109fef79f6, type: 2}
+--- !u!114 &1368629607909399892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924674598635638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 0}
+  m_BuildHeightMesh: 0
