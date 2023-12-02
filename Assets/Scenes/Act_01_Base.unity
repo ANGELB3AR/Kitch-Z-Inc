@@ -1685,7 +1685,7 @@ MonoBehaviour:
   endings:
   - resultAction: 2
     skipAction: 12
-    skipActionActual: {fileID: 896536079}
+    skipActionActual: {fileID: 1006578528}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6041,81 +6041,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4050034219101126, guid: 8e50e14a4116542438b34d7baaa0d9be, type: 3}
   m_PrefabInstance: {fileID: 895750882}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &896536079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86ff9c1a33ed34ad4b1a9147e4e331eb, type: 3}
-  m_Name: (Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 1
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 8
-    y: 1953
-    width: 300
-    height: 304
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  disableCamera: 0
-  director: {fileID: 701277194}
-  newTimeline: {fileID: 0}
-  directorConstantID: 0
-  directorParameterID: -1
-  method: 0
-  restart: 1
-  pause: 0
-  updateBindings: 1
-  newBindings:
-  - gameObject: {fileID: 0}
-    isPlayer: 0
-    playerID: -1
-    constantID: 0
-    parameterID: -1
-  - gameObject: {fileID: 0}
-    isPlayer: 0
-    playerID: -1
-    constantID: 0
-    parameterID: -1
-  - gameObject: {fileID: 0}
-    isPlayer: 1
-    playerID: -1
-    constantID: 0
-    parameterID: -1
-  - gameObject: {fileID: 0}
-    isPlayer: 1
-    playerID: -1
-    constantID: 0
-    parameterID: -1
-  - gameObject: {fileID: 0}
-    isPlayer: 0
-    playerID: -1
-    constantID: 0
-    parameterID: -1
 --- !u!1001 &925211638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6721,81 +6646,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2, y: 1.8472483, z: 1.2}
   m_Center: {x: 0, y: 0.12803735, z: 0}
---- !u!114 &974164045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86ff9c1a33ed34ad4b1a9147e4e331eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 1
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 304
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  disableCamera: 0
-  director: {fileID: 701277194}
-  newTimeline: {fileID: 0}
-  directorConstantID: 0
-  directorParameterID: -1
-  method: 0
-  restart: 1
-  pause: 0
-  updateBindings: 1
-  newBindings:
-  - gameObject: {fileID: 0}
-    isPlayer: 0
-    playerID: -1
-    constantID: 0
-    parameterID: -1
-  - gameObject: {fileID: 0}
-    isPlayer: 0
-    playerID: -1
-    constantID: 0
-    parameterID: -1
-  - gameObject: {fileID: 0}
-    isPlayer: 1
-    playerID: -1
-    constantID: 0
-    parameterID: -1
-  - gameObject: {fileID: 0}
-    isPlayer: 1
-    playerID: -1
-    constantID: 0
-    parameterID: -1
-  - gameObject: {fileID: 0}
-    isPlayer: 0
-    playerID: -1
-    constantID: 0
-    parameterID: -1
 --- !u!1001 &976391841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7168,6 +7018,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4558127688922482, guid: a60aed3109aac2e4e8b4fbd8e35506ec, type: 3}
   m_PrefabInstance: {fileID: 1000926650}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1006578528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 1
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 22
+    y: 1947
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  listSource: 0
+  actionList: {fileID: 5042923283572800965}
+  constantID: 0
+  parameterID: -1
+  invActionList: {fileID: 0}
+  assetParameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 0
+  localParameters: []
+  parameterIDs: 
+  setParameters: 0
+  runMode: 0
+  hasUpgradedAgain: 0
 --- !u!1 &1025608265
 GameObject:
   m_ObjectHideFlags: 0
@@ -8674,6 +8581,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4197487896501028, guid: 2d3a45ade0e0c37429c35f1e9f42bff2, type: 3}
   m_PrefabInstance: {fileID: 1318815877}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1320282469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ff9c1a33ed34ad4b1a9147e4e331eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 1
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 304
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 5042923283572800965}
+  disableCamera: 0
+  director: {fileID: 701277194}
+  newTimeline: {fileID: 0}
+  directorConstantID: 0
+  directorParameterID: -1
+  method: 0
+  restart: 1
+  pause: 0
+  updateBindings: 1
+  newBindings:
+  - gameObject: {fileID: 0}
+    isPlayer: 0
+    playerID: -1
+    constantID: 0
+    parameterID: -1
+  - gameObject: {fileID: 0}
+    isPlayer: 0
+    playerID: -1
+    constantID: 0
+    parameterID: -1
+  - gameObject: {fileID: 0}
+    isPlayer: 1
+    playerID: -1
+    constantID: 0
+    parameterID: -1
+  - gameObject: {fileID: 0}
+    isPlayer: 1
+    playerID: -1
+    constantID: 0
+    parameterID: -1
+  - gameObject: {fileID: 0}
+    isPlayer: 0
+    playerID: -1
+    constantID: 0
+    parameterID: -1
 --- !u!1 &1323862795
 GameObject:
   m_ObjectHideFlags: 0
@@ -14978,7 +14960,7 @@ MonoBehaviour:
   - {fileID: 1788891557}
   - {fileID: 1074143315}
   - {fileID: 1582017820}
-  - {fileID: 896536079}
+  - {fileID: 1006578528}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -17177,8 +17159,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 974164045}
-  isSkippable: 1
+  - {fileID: 1320282469}
+  isSkippable: 0
   triggerTime: 0
   autosaveAfter: 0
   actionListType: 0
