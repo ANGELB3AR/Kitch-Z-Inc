@@ -12,7 +12,7 @@
     "_tempCollidersAction": 1,
     "_paletteManager": {
         "_selectedPaletteIdx": 0,
-        "_selectedBrushIdx": -1,
+        "_selectedBrushIdx": 0,
         "_showBrushName": false,
         "_viewList": false,
         "_showTabsInMultipleRows": false,
@@ -186,7 +186,7 @@
                 "_layer": 0,
                 "_overwriteBrushProperties": false,
                 "_brushSettings": {
-                    "_id": -1,
+                    "_id": 638372679406288213,
                     "_surfaceDistance": 0.0,
                     "_randomSurfaceDistance": false,
                     "_randomSurfaceDistanceRange": {
@@ -481,7 +481,7 @@
                 "_layer": 0,
                 "_overwriteBrushProperties": false,
                 "_brushSettings": {
-                    "_id": -1,
+                    "_id": 638372679406288215,
                     "_surfaceDistance": 0.0,
                     "_randomSurfaceDistance": false,
                     "_randomSurfaceDistanceRange": {
@@ -805,7 +805,7 @@
                 "_layer": 0,
                 "_overwriteBrushProperties": false,
                 "_brushSettings": {
-                    "_id": -1,
+                    "_id": 638372679406288217,
                     "_surfaceDistance": 0.0,
                     "_randomSurfaceDistance": false,
                     "_randomSurfaceDistanceRange": {
@@ -920,7 +920,7 @@
                 "z": 0.0
             },
             "_spacingType": 0,
-            "_minSpacing": 1.0,
+            "_minSpacing": 5.2856597900390629,
             "_randomizePositions": true,
             "_randomness": 1.0,
             "_simData": {
@@ -1114,7 +1114,7 @@
                 "_layer": 0,
                 "_overwriteBrushProperties": false,
                 "_brushSettings": {
-                    "_id": -1,
+                    "_id": 638372679406288219,
                     "_surfaceDistance": 0.0,
                     "_randomSurfaceDistance": false,
                     "_randomSurfaceDistanceRange": {
@@ -1402,7 +1402,7 @@
                 "_layer": 0,
                 "_overwriteBrushProperties": false,
                 "_brushSettings": {
-                    "_id": -1,
+                    "_id": 638372679406288221,
                     "_surfaceDistance": 0.0,
                     "_randomSurfaceDistance": false,
                     "_randomSurfaceDistanceRange": {
@@ -1710,7 +1710,7 @@
                 "_layer": 0,
                 "_overwriteBrushProperties": false,
                 "_brushSettings": {
-                    "_id": -1,
+                    "_id": 638372679406288223,
                     "_surfaceDistance": 0.0,
                     "_randomSurfaceDistance": false,
                     "_randomSurfaceDistanceRange": {
@@ -1956,7 +1956,7 @@
             "_outermostPrefabFilter": true,
             "_overwriteBrushProperties": false,
             "_brushProperties": {
-                "_id": -1,
+                "_id": 638372679406288225,
                 "_surfaceDistance": 0.0,
                 "_randomSurfaceDistance": false,
                 "_randomSurfaceDistanceRange": {
@@ -2385,7 +2385,7 @@
                 "_layer": 0,
                 "_overwriteBrushProperties": false,
                 "_brushSettings": {
-                    "_id": -1,
+                    "_id": 638372679406288227,
                     "_surfaceDistance": 0.0,
                     "_randomSurfaceDistance": false,
                     "_randomSurfaceDistanceRange": {
@@ -2677,7 +2677,7 @@
                 "_layer": 0,
                 "_overwriteBrushProperties": false,
                 "_brushSettings": {
-                    "_id": -1,
+                    "_id": 638372679406288229,
                     "_surfaceDistance": 0.0,
                     "_randomSurfaceDistance": false,
                     "_randomSurfaceDistanceRange": {
@@ -2807,7 +2807,7 @@
             },
             "_origin": {
                 "x": 0.0,
-                "y": 0.0,
+                "y": -0.5633978843688965,
                 "z": 0.0
             },
             "_rotation": {
