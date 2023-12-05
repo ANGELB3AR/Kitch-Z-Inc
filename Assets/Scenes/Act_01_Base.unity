@@ -195,6 +195,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1688002853883126, guid: b3efb4daf2528dd48952308934bbfa6b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 26436000}
+    - targetCorrespondingSourceObject: {fileID: 1688002853883126, guid: b3efb4daf2528dd48952308934bbfa6b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 26436001}
   m_SourcePrefab: {fileID: 100100000, guid: b3efb4daf2528dd48952308934bbfa6b, type: 3}
 --- !u!1 &26435992 stripped
 GameObject:
@@ -392,6 +395,27 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.51000005, y: 0.92300004, z: 0}
   m_TimeToStationary: 0.5
+--- !u!65 &26436001
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26435992}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0204233, y: 1.8460553, z: 0.11840989}
+  m_Center: {x: -0.51021165, y: 0.92302763, z: 0.0092050135}
 --- !u!1001 &29392247
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2855,7 +2879,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &312648091
 Transform:
   m_ObjectHideFlags: 0
@@ -9491,23 +9515,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4373163366761480, guid: 2fc01610ec566294893d91f8d8b04a32, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6507262
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4373163366761480, guid: 2fc01610ec566294893d91f8d8b04a32, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4373163366761480, guid: 2fc01610ec566294893d91f8d8b04a32, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.75931257
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4373163366761480, guid: 2fc01610ec566294893d91f8d8b04a32, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4373163366761480, guid: 2fc01610ec566294893d91f8d8b04a32, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 98.807
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4562336158561796, guid: 2fc01610ec566294893d91f8d8b04a32, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11463,6 +11487,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1954357693080856, guid: ca31f6c5f715b7f40ad0aef93850f736, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1394971676}
+    - targetCorrespondingSourceObject: {fileID: 1954357693080856, guid: ca31f6c5f715b7f40ad0aef93850f736, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1394971677}
   m_SourcePrefab: {fileID: 100100000, guid: ca31f6c5f715b7f40ad0aef93850f736, type: 3}
 --- !u!1 &1394971668 stripped
 GameObject:
@@ -11660,6 +11687,27 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.51000005, y: 0.92300004, z: 0}
   m_TimeToStationary: 0.5
+--- !u!65 &1394971677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394971668}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0204233, y: 1.8460553, z: 0.12835926}
+  m_Center: {x: -0.51021165, y: 0.92302763, z: 0.01417949}
 --- !u!114 &1396355429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20021,7 +20069,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3528689858264824625
 Transform:
   m_ObjectHideFlags: 0
