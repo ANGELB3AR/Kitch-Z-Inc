@@ -3425,6 +3425,59 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &459746157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 15
+    y: 675
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6435837327017288750}
+  invAction: 1
+  parameterID: -1
+  invID: 3
+  replaceParameterID: -1
+  invIDReplace: 0
+  setAmount: 0
+  amountParameterID: -1
+  amount: 1
+  setPlayer: 0
+  playerID: 0
+  addToFront: 0
+  removeLast: 0
+  itemRemoveMethod: 0
 --- !u!114 &465540352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8511,6 +8564,51 @@ Transform:
   - {fileID: 2128413213}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1030422146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 1
+    y: 840
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6435837327017288750}
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 550884812}
+  affectChildren: 0
+  changeType: 1
 --- !u!114 &1033284504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12018,7 +12116,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
+  - resultAction: 0
     skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
@@ -17312,7 +17410,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1151304346463558420}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104966837577540}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b7c3ce72f27144c1be5a4a8ce09121d, type: 3}
   m_Name: 
@@ -18036,7 +18134,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2385525938869316128, guid: 35b0bfd3a610cd149beff0ae0ecdb014, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2385525938869316128, guid: 35b0bfd3a610cd149beff0ae0ecdb014, type: 3}
       propertyPath: useButtons.Array.size
@@ -18053,6 +18151,14 @@ PrefabInstance:
     - target: {fileID: 2385525938869316128, guid: 35b0bfd3a610cd149beff0ae0ecdb014, type: 3}
       propertyPath: useButtons.Array.data[1].proximity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385525938869316128, guid: 35b0bfd3a610cd149beff0ae0ecdb014, type: 3}
+      propertyPath: useButtons.Array.data[0].isDisabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385525938869316128, guid: 35b0bfd3a610cd149beff0ae0ecdb014, type: 3}
+      propertyPath: useButtons.Array.data[1].isDisabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2385525938869316128, guid: 35b0bfd3a610cd149beff0ae0ecdb014, type: 3}
       propertyPath: useButtons.Array.data[0].interaction
@@ -18123,8 +18229,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8245902406219737314, guid: 35b0bfd3a610cd149beff0ae0ecdb014, type: 3}
+      propertyPath: m_Radius
+      value: 0.19432029
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245902406219737314, guid: 35b0bfd3a610cd149beff0ae0ecdb014, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245902406219737314, guid: 35b0bfd3a610cd149beff0ae0ecdb014, type: 3}
+      propertyPath: m_Center.x
+      value: -0.0000063180923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245902406219737314, guid: 35b0bfd3a610cd149beff0ae0ecdb014, type: 3}
+      propertyPath: m_Center.y
+      value: 0.09
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21618,6 +21736,8 @@ MonoBehaviour:
   - {fileID: 1002010884}
   - {fileID: 1616823107}
   - {fileID: 1491301351}
+  - {fileID: 459746157}
+  - {fileID: 1030422146}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
