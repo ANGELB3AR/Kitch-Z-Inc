@@ -12,7 +12,7 @@
     "_tempCollidersAction": 1,
     "_paletteManager": {
         "_selectedPaletteIdx": 0,
-        "_selectedBrushIdx": -1,
+        "_selectedBrushIdx": 0,
         "_showBrushName": false,
         "_viewList": false,
         "_showTabsInMultipleRows": false,
@@ -920,7 +920,7 @@
                 "z": 0.0
             },
             "_spacingType": 0,
-            "_minSpacing": 0.10000000149011612,
+            "_minSpacing": 5.2856597900390629,
             "_randomizePositions": true,
             "_randomness": 1.0,
             "_simData": {
@@ -939,7 +939,7 @@
                 "_tempLayer": 0,
                 "_ignoreSceneColliders": false
             },
-            "_height": 10.0,
+            "_height": 1.0,
             "_createTempColliders": true
         },
         "_surfaceDistanceSensitivity": 1.0
@@ -2807,7 +2807,7 @@
             },
             "_origin": {
                 "x": 0.0,
-                "y": 3.163649559020996,
+                "y": -0.3040121793746948,
                 "z": 0.0
             },
             "_rotation": {
