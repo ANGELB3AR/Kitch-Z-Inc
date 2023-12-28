@@ -4,9 +4,8 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: DamageZone
   m_Shader: {fileID: 4800000, guid: d97b2475e12b5c146a78083b2fdbff44, type: 3}
   m_ShaderKeywords: 
@@ -145,4 +144,3 @@ Material:
     - _WaterShallowColor: {r: 0, g: 0, b: 0, a: 0}
     - _White: {r: 1, g: 1, b: 1, a: 0}
     - _Zone_Color: {r: 0, g: 0.5862069, b: 1, a: 1}
-  m_BuildTextureStacks: []
