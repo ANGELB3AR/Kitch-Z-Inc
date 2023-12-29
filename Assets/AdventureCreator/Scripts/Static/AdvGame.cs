@@ -907,7 +907,7 @@ namespace AC
 		 */
 		public static void DrawMeshCollider (Transform transform, Mesh mesh, Color color)
 		{
-			if (mesh)
+			if (mesh && mesh.vertices.Length > 0 && mesh.normals.Length > 0)
 			{
 				Gizmos.color = color;
 				Gizmos.DrawMesh (mesh, 0, transform.position, transform.rotation, transform.lossyScale);
