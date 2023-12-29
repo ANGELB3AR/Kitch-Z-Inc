@@ -3795,6 +3795,7 @@ GameObject:
   - component: {fileID: 2453250610638455466}
   - component: {fileID: 3725012959375923520}
   - component: {fileID: 4954316755757291023}
+  - component: {fileID: 6392482262838210801}
   m_Layer: 2
   m_Name: Kitch
   m_TagString: Untagged
@@ -4199,6 +4200,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _moveWithRigidbody: 1
   predictCollisions: 0
+--- !u!114 &6392482262838210801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8169601009230092794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 235906
+  retainInPrefab: 1
+  autoManual: 0
 --- !u!1 &8260535738742668201
 GameObject:
   m_ObjectHideFlags: 0
