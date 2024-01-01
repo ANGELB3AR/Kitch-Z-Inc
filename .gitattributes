@@ -45,3 +45,4 @@
 *.lxo filter=lfs diff=lfs merge=lfs -text
 *.xcf filter=lfs diff=lfs merge=lfs -text
 *.unity !text !filter !merge !diff
+*.cubemap filter=lfs diff=lfs merge=lfs -text
