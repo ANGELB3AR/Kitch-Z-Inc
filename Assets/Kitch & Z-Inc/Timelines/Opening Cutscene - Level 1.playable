@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerLine: 1
   playerID: -1
-  speaker: {fileID: 7893918926957897063, guid: 816e757e03403cc48ab491fbbb616e07, type: 3}
+  speaker: {fileID: 0}
   speechPlayableData:
     lineID: -1
     messageText: No trouble huh...
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -235738
+  trackInstanceID: 48846
 --- !u!114 &-9020791185076458946
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -820,13 +820,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerLine: 1
   playerID: -1
-  speaker: {fileID: 7893918926957897063, guid: 816e757e03403cc48ab491fbbb616e07, type: 3}
+  speaker: {fileID: 0}
   speechPlayableData:
     lineID: -1
     messageText: But you don't understand. The H2O Laser could...
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -235738
+  trackInstanceID: 48846
 --- !u!114 &-7576373204102356476
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerLine: 1
   playerID: -1
-  speaker: {fileID: 7893918926957897063, guid: 816e757e03403cc48ab491fbbb616e07, type: 3}
+  speaker: {fileID: 0}
   speechPlayableData:
     lineID: -1
     messageText: '*sigh*
@@ -849,7 +849,7 @@ MonoBehaviour:
       Understood.'
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -235738
+  trackInstanceID: 48846
 --- !u!114 &-5616773408101820537
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -864,13 +864,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerLine: 1
   playerID: -1
-  speaker: {fileID: 7893918926957897063, guid: 816e757e03403cc48ab491fbbb616e07, type: 3}
+  speaker: {fileID: 0}
   speechPlayableData:
     lineID: -1
     messageText: I won't "cause any trouble" if I don't get caught
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -235738
+  trackInstanceID: 48846
 --- !u!114 &-5451806509887921168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -948,7 +948,7 @@ MonoBehaviour:
     messageText: Excellent. As you were.
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -263064
+  trackInstanceID: 48848
 --- !u!114 &-3818117810254038418
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -963,14 +963,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerLine: 1
   playerID: -1
-  speaker: {fileID: 7893918926957897063, guid: 816e757e03403cc48ab491fbbb616e07, type: 3}
+  speaker: {fileID: 0}
   speechPlayableData:
     lineID: -1
     messageText: With Dad gone, this is my chance to get to the Coal District and
       find the diamond I need for the laser.
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -235738
+  trackInstanceID: 48846
 --- !u!114 &-2103739768842689701
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1089,49 +1089,13 @@ MonoBehaviour:
     m_BlendOutDuration: 0.5833333333333339
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -2222,7 +2186,7 @@ MonoBehaviour:
     messageText: Now, I need you to stay here and don't cause any trouble.
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -263064
+  trackInstanceID: 48848
 --- !u!114 &891410876351197818
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2243,7 +2207,7 @@ MonoBehaviour:
     messageText: Understood?
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -263064
+  trackInstanceID: 48848
 --- !u!74 &1050981934761701823
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -2271,10 +2235,19 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
+        time: 14.31584
+        value: {x: 0, y: 45, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
         time: 29.316668
         value: {x: 0, y: 20.414, z: 0}
-        inSlope: {x: 0, y: 0.0000979728, z: 0}
-        outSlope: {x: 0, y: 0.0000979728, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -2682,10 +2655,19 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 14.31584
+        value: 45
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 29.316668
         value: 20.414
-        inSlope: 0.0000979728
-        outSlope: 0.0000979728
+        inSlope: 0
+        outSlope: 0
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -2791,14 +2773,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerLine: 1
   playerID: -1
-  speaker: {fileID: 7893918926957897063, guid: 816e757e03403cc48ab491fbbb616e07, type: 3}
+  speaker: {fileID: 0}
   speechPlayableData:
     lineID: -1
     messageText: I just need to get my hands on a fairly large diamond to complete
       it.
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -235738
+  trackInstanceID: 48846
 --- !u!114 &2324418100583117964
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2813,13 +2795,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerLine: 1
   playerID: -1
-  speaker: {fileID: 7893918926957897063, guid: 816e757e03403cc48ab491fbbb616e07, type: 3}
+  speaker: {fileID: 0}
   speechPlayableData:
     lineID: -1
     messageText: Finally, the H2O Laser is almost ready!
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -235738
+  trackInstanceID: 48846
 --- !u!114 &2430484946997703498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2986,7 +2968,7 @@ MonoBehaviour:
     messageText: This can't wait, Kitch. It's my duty.
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -263064
+  trackInstanceID: 48848
 --- !u!114 &3457151273810127213
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3143,7 +3125,7 @@ MonoBehaviour:
     messageText: Kitch. We have a situation in the Phosphorus District.
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -263064
+  trackInstanceID: 48848
 --- !u!114 &5615540105169343947
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3158,14 +3140,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerLine: 1
   playerID: -1
-  speaker: {fileID: 7893918926957897063, guid: 816e757e03403cc48ab491fbbb616e07, type: 3}
+  speaker: {fileID: 0}
   speechPlayableData:
     lineID: -1
     messageText: Again? Dad, I'm on the verge of a breakthrough with the H2O Laser
       and...
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -235738
+  trackInstanceID: 48846
 --- !u!114 &5835544470110558602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3300,7 +3282,7 @@ MonoBehaviour:
     messageText: Rebels are causing trouble again. I need to leave and handle it.
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -263064
+  trackInstanceID: 48848
 --- !u!114 &7221955743314145021
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3321,7 +3303,7 @@ MonoBehaviour:
     messageText: Kitch, don't argue with me.
     isBackground: 0
   speechTrackPlaybackMode: 0
-  trackInstanceID: -263064
+  trackInstanceID: 48848
 --- !u!114 &7403911499306123355
 MonoBehaviour:
   m_ObjectHideFlags: 1
