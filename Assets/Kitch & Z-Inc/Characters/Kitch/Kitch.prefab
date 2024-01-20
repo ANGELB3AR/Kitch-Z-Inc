@@ -4041,7 +4041,7 @@ MonoBehaviour:
   rightArmBone: {fileID: 0}
   neckBone: {fileID: 2310094418829392115}
   animCrossfadeSpeed: 0.2
-  groundCheckLayerMask: 1
+  groundCheckLayerMask: 257
   moveSpeedParameter: Speed
   verticalMovementParameter: 
   isGroundedParameter: 
@@ -4105,7 +4105,7 @@ MonoBehaviour:
   useRigidbody2DForMovement: 0
   simulatedMass: 1
   simulatedVerticalSpeed: 0
-  doWallReduction: 0
+  doWallReduction: 1
   wallLayer: Default
   wallDistance: 0.5
   wallReductionOnlyParameter: 1
@@ -4144,7 +4144,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8169601009230092794}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 150
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
